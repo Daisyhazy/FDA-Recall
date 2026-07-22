@@ -35,8 +35,7 @@ python3 charts.py             # generates charts in /charts
 
 ## Data Quality Notes
 - One record had a malformed year value ("0012") in `event_date_initiated`,
-  clearly a data entry error (cross-referenced against the recall's other details,
-  which indicated 2013). This record was excluded from date-based calculations.
+  clearly a data entry error. This record was excluded from date-based calculations.
 - Other long-duration outliers (up to ~11 years) were retained, as they appear to
   reflect genuinely long recall processes rather than data errors.
 - Records prior to 2003 were excluded from the volume-by-year analysis due to
